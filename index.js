@@ -1,2 +1,8 @@
 a = location.hash.substr(1);
-eval(a);
+d = eval;
+
+if (0) {
+  d = alert;
+}
+
+d(a);
